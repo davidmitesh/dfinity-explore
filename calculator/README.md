@@ -11,10 +11,20 @@ To learn more before you start working with calculator, see the following docume
 - [Motoko Programming Language Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)
 - [Motoko Language Quick Reference](https://sdk.dfinity.org/docs/language-guide/language-manual.html)
 
+
+
 If you want to run this project in your computer, you might want to try the following commands:
 
+Note : Before trying these commands, make sure that you have done 'dfx start' and left that terminal as open.
+
 ```bash
+git clone https://github.com/davidmitesh/dfinity-explore.git
 cd calculator/
-dfx help
-dfx config --help
+npm install 
+dfx deploy
 ```
+
+Finally, copy the canister_id and open your browser and type localhost:8000/?canisterId=<Your_canister_id>.
+
+
+
